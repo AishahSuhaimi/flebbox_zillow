@@ -1,13 +1,17 @@
 /* general styles */
+body{
+    margin: 0;
+}
 .container{
     width: 80%;
     margin-left: auto;
     margin-right:auto;
 }
-
+.flex{
+    display:flex;
+}
 /* header */
 .header{
-    display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top: 10px;
@@ -23,4 +27,11 @@
 /* banner */
 .banner{
     background-image: url("../img/_Desktop_Overlay_ChangeStartsHere_HC@2x.webp");
+    background-size: cover;
+    height: 400px;
+    padding:50px 0;
+}
+
+.img__holder img{
+    width: 100%;
 }
