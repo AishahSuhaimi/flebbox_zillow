@@ -1,6 +1,7 @@
 /* general styles */
 body{
     margin: 0;
+    font-family: "Roboto";
 }
 .container{
     width: 80%;
@@ -52,11 +53,28 @@ body{
 }
 
 .walk_through .item{
-    box-shadow: -1px 5px 5px rgb(96, 96, 96);
+    margin-right:20px;
+    box-shadow: 1px 48px 5px rgb(96, 96,96); 
     padding: 10px;
+}
+
+.item button{
+    border: 1px solid blue;
+    background-color: transparent;
+    padding: 10px;
+}
+
+.walk_through .item:last-child{
+    margin-right:0;
 }
 
 .img__holder img{
     width: 100%;
 }
 
+h4.container{
+    text-align: center;
+    width:30%;
+    margin-left:auto;
+    margin-right: auto;
+}
