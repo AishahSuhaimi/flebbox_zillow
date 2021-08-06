@@ -9,6 +9,7 @@ body{
 }
 .flex{
     display:flex;
+    /* flex-wrap: wrap; */
 }
 /* header */
 .header{
@@ -32,6 +33,22 @@ body{
     padding:50px 0;
 }
 
+.banner h3{
+    text-align: center;
+}
+.banner div{
+    background-color: white;
+    width: 40%;
+    margin: 20px auto;
+}
+
+.walk_through .item{
+    box-shadow: -1px 5px 5px rgb(96, 96, 96);
+    padding: 10px;
+    /* width: 33.33%; */
+}
+
 .img__holder img{
     width: 100%;
 }
+
